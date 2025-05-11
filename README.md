@@ -26,3 +26,7 @@ Open the crontab editor for the root user:
 ```sh
 sudo crontab -e
 ```
+
+```sh
+@reboot /path/to/update_gpu_card.sh
+```
